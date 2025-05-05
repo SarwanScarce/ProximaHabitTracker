@@ -115,11 +115,6 @@ def track_a_habit():
     # Executed if option 'C' is entered
     elif (chosen_option == 'C'):
 
-        # Used to create the connection to the database
-        conn = sqlite3.connect('habits_database.db')
-        # Used to create cursor object
-        c = conn.cursor()
-
         # Used to create a view of all habits
         c.execute("SELECT habitName, specification, periodicity FROM habits_table")
         my_data = [c]
@@ -397,7 +392,7 @@ def track_a_habit():
             print(f"\nYour longest streak is {habit_name4} for {days_checked} days starting from {start_date2} to {end_date1}.")
         else:
             print('We have a tie for weekly and daily habits!')
-            print(f"\nYour longest streak is {habit_name2} for {days_checked} weeks starting from {start_date2} to {end_date1}.")
+            print(f"\nYour longest streak is {habit_name2} for {weeks_checked} weeks starting from {start_date_week1} to {end_date_week1}.")
             print(f"\nYour longest streak is {habit_name4} for {days_checked} days starting from {start_date2} to {end_date1}.")
 
         # The user clicks the run button to carry out another action
