@@ -9,13 +9,13 @@ It allows users to use a command line interface to carry out a number of tasks:
 - track their performance
 - remove habits and related records as needed
 
-**Why the project is useful**
+**Why the project is useful?**
 This project has been instrumental in undestanding progrmming concepts and mechanisms in Python.
 
-**How users can get started with the project**
+**How users can get started with the project?**
 Once users have accessed this application through this Git Hub repository, the PyCharm IDE can be used to use this application. 
 All packages necessary are in cluded in program. 
 Once up and rnning, users follow the instructions in the output window.
 
-**Where users can get help with your project**
+**Where users can get help with your project?**
 If users would like to know more about this application they can reach out to the creator at ricoscarce@yahoo.com.
